@@ -1,0 +1,14 @@
+{
+  "name": "mongo-backup",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "backup": "node backup.js",
+    "restore": "node restore.js",
+    "migrate": "node backup && node restore"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
